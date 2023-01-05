@@ -1,5 +1,8 @@
 import React from 'react'
 import { AiOutlinePlayCircle } from "react-icons/ai";
+import { CiBasketball } from "react-icons/ci";
+import PlayTableDetails from './PlaySubTable';
+
 import './styles.css'
 const PlayTable = () => {
     return (
@@ -8,27 +11,75 @@ const PlayTable = () => {
                 <div className='playicon'><AiOutlinePlayCircle />In Play</div>
                 <div className='cartSection'> Open Bets <span>0</span></div>
             </div>
+            <div className='SectionFirst'>
 
 
-            <div className='PlayContainer'>
+                <div className='PlayHeadingContainer'>
 
-                <div>
-                    <div className='date'>
-                        <div>01/01/1001 </div>
-                        <div>13:00 </div>
+                    <div className='PlaingHeadingLeftSection'>
+                        <div className='TeamTitle'>
+                            <CiBasketball /> Cricket
+                        </div>
+
                     </div>
-                    <div className='palying Title'>
-                        <div>West Indies Sri </div>
-                        <div>Sri Lanka Sri</div>
+                    <div className='TeamDisplayBox'>
+                        <div>1</div>
+                        <div>x</div>
+                        <div>2</div>
+
                     </div>
-                </div>
-                <div>
-                    <div>1.73</div>
-                    <div>2.73</div>
-                    <div>1.43</div>
 
                 </div>
+                <PlayTableDetails />
+                    
+            </div>
 
+            <div className='SectionSecond'>
+
+
+                <div className='PlayHeadingContainer'>
+
+                    <div className='PlaingHeadingLeftSection'>
+                        <div className='TeamTitle'>
+                            <CiBasketball /> Football
+                        </div>
+                          
+                    </div>
+                    <div className='TeamDisplayBox'>
+                        <div>1</div>
+                        <div>x</div>
+                        <div>2</div>
+
+                    </div>
+
+                </div>
+                <PlayTableDetails />
+            </div>
+
+
+
+
+            <div className='SectionSecond'>
+
+
+                <div className='PlayHeadingContainer'>
+
+                    <div className='PlaingHeadingLeftSection'>
+                        <div className='TeamTitle'>
+                            <CiBasketball /> 
+                            
+                        </div>Tennis
+
+                    </div>
+                    <div className='TeamDisplayBox'>
+                        <div>1</div>
+                        <div>x</div>
+                        <div>2</div>
+
+                    </div>
+
+                </div>
+                <PlayTableDetails />
             </div>
 
         </>

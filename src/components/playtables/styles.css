@@ -30,3 +30,91 @@
     right: -12px;
     font-size: 13px;
 }
+.PlayContainer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.PlaingLeftSection {
+    display: flex;
+}
+
+.PlayingRightSection {
+    display: flex;
+    color: #000000;
+    font-size: 13px;
+}
+
+.PlayingRightSection div {
+    padding: 10px;
+    background-color: #a7d8fd;
+    width: 20px;
+    border: 1px solid #fefefe;
+    text-align: center;
+}
+
+
+.Palyingdate {
+    color: #01623f;
+    font-size: 13px;
+    padding-right: 20px;
+}
+
+
+.Palyindgdate {
+    display: flex;
+    align-items: center;
+}
+
+.Palying.Title {
+    font-size: 13px;
+    font-weight: bold;
+}
+.PlaingLeftSection {
+    display: flex;
+    padding-left: 6%;
+    align-items: center;
+
+}
+
+.PlayHeadingContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.PlaingHeadingLeftSection {
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+}
+
+.TeamDisplayBox {
+    display: flex;
+}
+
+.TeamDisplayBox div {
+    background: #a7d8fd;
+    width: 20px;
+    padding: 11px;
+    text-align: center;
+    font-size: 13px;
+}
+.PlayHeadingContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TeamTitle{
+    display: flex;
+    align-items: center;
+}
+.TeamTitle svg{
+    padding-right: 5px;
+}
+.livelogo {
+    transform: translateY(-10px);
+    background: transparent !important;
+    color: #257b23;
+}
