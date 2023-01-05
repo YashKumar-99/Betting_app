@@ -1,0 +1,21 @@
+.promotion-button{
+    justify-content: space-between;
+    grid-row-gap: 5px;
+    margin: 12px 10px 0;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    grid-column-gap: 6px;
+    /* display: flex; */
+    border: 2px solid pink;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 6px;
+    margin: 5px 10px;
+    width: 150px;
+    height: 36px;
+}
