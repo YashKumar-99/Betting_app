@@ -3,13 +3,15 @@ import './App.css';
 
 import Header from './components/Header/index';
 import HeaderSlider from './components/Slider';
+import PlayTable from './components/playtables';
 
 function App() {
   return (
     // <div>hello</div>
-  <><Header/>
-   <HeaderSlider/>
-  </>
+    <><Header />
+      <HeaderSlider />
+      <PlayTable/>
+    </>
   );
 }
 

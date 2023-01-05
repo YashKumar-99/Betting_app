@@ -1,0 +1,32 @@
+.PlayHeaderSection {
+    background: #257b23;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.playicon {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.cartSection {
+    color: #fff;
+    position: relative;
+}
+
+
+.cartSection span {
+ 
+    position: absolute;
+    transform: translateY(-10px);
+    background: #f5db32;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    right: -12px;
+    font-size: 13px;
+}
