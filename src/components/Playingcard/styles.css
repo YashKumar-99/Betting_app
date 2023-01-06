@@ -1,11 +1,11 @@
 .box{
-    border:2px solid red ;
+    /* border:2px solid red ; */
     padding: 10px 10px 0;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 5px;
 }
-  .box1,.box2,.box3,.box4,.box5{
+  .box1{
     position: absolute;
     top: 5px;
     left: 5px;
@@ -24,7 +24,7 @@
     border: 0;
   }
   .sport-bg-img{
-    width: 100%;
+    width: 75px;
     height: 36px;
     object-fit: cover;
   }

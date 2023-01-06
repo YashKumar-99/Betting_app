@@ -10,12 +10,20 @@
     /* display: flex; */
     border: 2px solid pink;
 }
-.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
-    border: 2px solid black;
+.card{
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    top: 22%;
+    left: 17px;
+    font-weight: 700;
+}
+.promotion {
     display: flex;
     flex-direction: column;
     padding: 0px 6px;
     margin: 5px 10px;
-    width: 150px;
+    width: 175px;
     height: 36px;
+    position: relative;
 }
