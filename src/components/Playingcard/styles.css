@@ -38,10 +38,4 @@
     position: relative; 
   }
 
-  .PlayingRightSection div {
-    padding: 10px;
-    background-color: #a7d8fd;
-    width: 20px;
-    border: 1px solid #fefefe;
-    text-align: center;
-}
+  
