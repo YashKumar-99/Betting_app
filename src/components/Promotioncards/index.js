@@ -21,7 +21,7 @@ function Promotioncards() {
     <div className='promotion-button '>
       <div className='promotion'>
       <img src={Evolution} />
-        <div className='card'> Evolution gaming</div>
+        <div className='card'><GiTrophyCup /> Evolution gaming</div>
         </div>
       <div className='promotion' >
       <img src={live} />

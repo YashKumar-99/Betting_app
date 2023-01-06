@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../Navigation/Navbar';
 import { BiMenu } from 'react-icons/bi';
 import { ImSearch } from "react-icons/im";
-
+ import { Colors } from '../colors';
 
 import Logo from '../../assests/logo.png'
 import './styles.css'
@@ -27,7 +27,7 @@ const Header = () => {
         <div>
 
 
-            <div className='HeaderSection'>
+            <div className="HeaderSection" >
 
 
 

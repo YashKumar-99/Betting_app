@@ -1,18 +1,18 @@
 .PlayHeaderSection {
-    background: #257b23;
+    background: var(--PlayHeaderBackgroundColor);
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
 .playicon {
     font-size: 20px;
-    color: #fff;
+    color: var(--SearchIconColor);
     display: flex;
     align-items: center;
 }
 
 .cartSection {
-    color: #fff;
+    color: var(--SearchIconColor);
     position: relative;
 }
 
@@ -22,7 +22,7 @@
     position: absolute;
     transform: translateY(-10px);
     background: #f5db32;
-    color: #fff;
+    color: var(--WhiteText);
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -33,8 +33,8 @@
 .PlayContainer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-top: 1px solid var(--PlayHeaderTitle);
+    border-bottom: 1px solid var(--PlayHeaderTitle);
 }
 
 .PlaingLeftSection {
@@ -43,13 +43,13 @@
 
 .PlayingRightSection {
     display: flex;
-    color: #000000;
+    color: var(--PlayHeaderTitle);
     font-size: 13px;
 }
 
 .PlayingRightSection div {
     padding: 10px;
-    background-color: #a7d8fd;
+    background-color: var(--LiveBoxesBgColor);
     width: 20px;
     border: 1px solid #fefefe;
     text-align: center;
@@ -57,7 +57,7 @@
 
 
 .Palyingdate {
-    color: #01623f;
+    color: var(--PlaydateTitle);
     font-size: 13px;
     padding-right: 20px;
 }
