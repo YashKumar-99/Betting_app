@@ -2,11 +2,12 @@ import React from 'react'
 import Navbar from '../../Navigation/Navbar';
 import { BiMenu } from 'react-icons/bi';
 import { ImSearch } from "react-icons/im";
- import { Colors } from '../colors';
+import { Colors } from '../colors';
 
 import Logo from '../../assests/logo.png'
 import './styles.css'
 
+import { useState } from 'react';
 
 
 
@@ -16,14 +17,21 @@ import './styles.css'
 
 
 
-
-const Header = () => {
-
+const Header = ({ getdata }) => {
 
 
-    // console.log(Logo,"logo")
+
+
+
+    const MenuClick = () => {
+        // console.log("menuclilcked", setSideBar());
+
+        getdata(true)
+
+    }
+
+
     return (
-        // <Navbar/>
         <div>
 
 
@@ -32,7 +40,7 @@ const Header = () => {
 
 
                 <div className='LogoSection'>
-                    <div className='Menu-icon'>   <BiMenu /></div>
+                    <div className='Menu-icon' onClick={MenuClick}>   <BiMenu /></div>
                     <div className='logo-img'> <img src={Logo} /> </div>
                 </div>
 

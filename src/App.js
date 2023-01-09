@@ -8,18 +8,28 @@ import Playingcard from './components/Playingcard';
 import Promotioncards from './components/Promotioncards';
 
 import SideLinks from './components/SidebarLink';
+import { useState } from 'react';
+
+
+
 
 function App() {
+
+
+
+  const [SidebarOption, setSideBar] = useState(false);
+
+  console.log(SidebarOption, "SidebarOption")
+
   return (
 
     <>
 
+      {SidebarOption ? <SideLinks /> : ""}
 
-
-      {/* <SideLinks /> */}
       <div className='pageswidth'>
 
-        <Header />
+        <Header getdata={e => setSideBar(e)} />
         <HeaderSlider />
         <Playingcard />
         <Promotioncards />

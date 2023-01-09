@@ -12,44 +12,52 @@ import cards from "../../assests/card-bg.png";
 import ecricket from "../../assests/e-Cricket-bg.png";
 import multi from "../../assests/multiplayer-bg.png";
 import fishing from "../../assests/fishing-bg.png";
-import {GiCombinationLock} from "react-icons/gi";
-import {GiGameConsole} from "react-icons/gi";
+import { GiCombinationLock } from "react-icons/gi";
+import { GiGameConsole } from "react-icons/gi";
 
 
 function Promotioncards() {
   return (
-    <div className='promotion-button '>
+
+
+
+    <div className='promotion-button'>
       <div className='promotion'>
-      <img src={Evolution} />
+        <img src={Evolution} />
         <div className='card'><GiTrophyCup /> Evolution gaming</div>
-        </div>
+      </div>
       <div className='promotion' >
-      <img src={live} />
-        <div className='card'><CgCrown /> 
-        live casinos </div>
-        </div>
+        <img src={live} />
+        <div className='card'><CgCrown />
+          live casinos </div>
+      </div>
       <div className='promotion'>
-        <img src={sports}/>
+        <img src={sports} />
         <div className='card'><GiTrophyCup />Sportsbook</div>
-        </div>
+      </div>
       <div className='promotion'>
-        <img src={slot}/>
-        <div className='card'><GiCombinationLock/>Slot Games</div>
-        </div>
+        <img src={slot} />
+        <div className='card'><GiCombinationLock />Slot Games</div>
+      </div>
       <div className='promotion'>
-        <img src={cards}/>
+        <img src={cards} />
         <div className='card'><GiCardKingHearts />Card Games</div></div>
       <div className='promotion'>
-        <img src={ecricket }/>
-        <div className='card'><GiGameConsole/>E-cricket</div></div>
+        <img src={ecricket} />
+        <div className='card'><GiGameConsole />E-cricket</div></div>
       <div className='promotion'>
-        <img src={multi}/>
+        <img src={multi} />
         <div className='card'><GiCardKingHearts /> Multiplayer Games</div>
-        </div>
+      </div>
       <div className='promotion'>
-        <img src={fishing}/>
+        <img src={fishing} />
         <div className='card'><GiFishing />Fishing Games</div></div>
     </div>
+    
+
+
+
+
   )
 }
 
