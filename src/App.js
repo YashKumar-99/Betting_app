@@ -7,14 +7,25 @@ import PlayTable from './components/playtables';
 import Playingcard from './components/Playingcard';
 import Promotioncards from './components/Promotioncards';
 
+import SideLinks from './components/SidebarLink';
+
 function App() {
   return (
-    // <div>hello</div>
-    <><Header />
-      <HeaderSlider />
-      <Playingcard />
-      <Promotioncards />
-      <PlayTable />
+
+    <>
+
+
+
+      {/* <SideLinks /> */}
+      <div className='pageswidth'>
+
+        <Header />
+        <HeaderSlider />
+        <Playingcard />
+        <Promotioncards />
+        <PlayTable />
+      </div>
+
     </>
   );
 }
