@@ -17,7 +17,7 @@ import { useState } from 'react';
 
 
 
-const Header = ({ getdata }) => {
+const Header = ({ setSideBar,setSideBarWidth }) => {
 
 
 
@@ -26,7 +26,8 @@ const Header = ({ getdata }) => {
     const MenuClick = () => {
         // console.log("menuclilcked", setSideBar());
 
-        getdata(true)
+        setSideBar(true);
+        setSideBarWidth("AddSideBarWidth")
 
     }
 

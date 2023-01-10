@@ -1,21 +1,12 @@
 import React, { useState } from 'react'
 
 
+
 import './styles.css'
 
 const SideLinks = () => {
 
-
-
-
-
-
-
   return (
-
-
-
-
 
     <div className='sidebarLinks'>
       <ul>
@@ -27,11 +18,7 @@ const SideLinks = () => {
         <li>Profile</li>
       </ul>
 
-
     </div>
-
-
-
 
   )
 }

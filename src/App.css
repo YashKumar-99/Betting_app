@@ -22,9 +22,6 @@
 
 
 
-
-
-
 .App {
   text-align: center;
 }
@@ -56,9 +53,22 @@
 }
 
 
+.pageswidth.AddSideBarWidth {
+  /* transform: translateX(60%); */
+}
 
 
 
+/* .pageswidth.AddSideBarWidth {
+  transform: translateX(25%);
+} */
+
+
+
+.pageswidth.RemoveSideBarWidth {
+  transform: translateX(0%);
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
