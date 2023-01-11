@@ -109,12 +109,14 @@
 .TeamTitle{
     display: flex;
     align-items: center;
+    color:var(--PlayHeaderBackgroundColor);
 }
 .TeamTitle svg{
     padding-right: 5px;
+    color: var(--PlayHeaderBackgroundColor);
 }
 .livelogo {
     transform: translateY(-10px);
     background: transparent !important;
-    color: #257b23;
+    color: var(--PlayHeaderBackgroundColor);
 }

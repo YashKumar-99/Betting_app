@@ -11,7 +11,7 @@
 .card {
     position: absolute;
     font-size: 13px;
-    color: #fff;
+    color: var(--WhiteText);
     top: 22%;
     left: 17px;
     font-weight: 700;

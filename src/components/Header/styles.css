@@ -48,7 +48,7 @@
 
 
 .SearchClass path {
-    stroke: #fff;
+    stroke: var(--WhiteText);
     font-size: 16px;
 
 }
@@ -75,6 +75,6 @@
     transform: translateY(-3px);
 }
 .LogoSection path {
-    stroke: #fff;
+    stroke: var(--WhiteText);
 
 }

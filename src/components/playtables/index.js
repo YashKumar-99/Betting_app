@@ -1,7 +1,9 @@
 import React from 'react'
 import { AiOutlinePlayCircle } from "react-icons/ai";
-import { CiBasketball } from "react-icons/ci";
+import { GiGlassBall} from "react-icons/gi";
+import {IoFootballOutline} from "react-icons/io5";
 import PlayTableDetails from './PlaySubTable';
+import {IoTennisballOutline} from "react-icons/io5";
 
 import './styles.css'
 const PlayTable = () => {
@@ -18,7 +20,7 @@ const PlayTable = () => {
 
                     <div className='PlaingHeadingLeftSection'>
                         <div className='TeamTitle'>
-                            <CiBasketball /> Cricket
+                        <GiGlassBall/>Cricket
                         </div>
 
                     </div>
@@ -41,7 +43,7 @@ const PlayTable = () => {
 
                     <div className='PlaingHeadingLeftSection'>
                         <div className='TeamTitle'>
-                            <CiBasketball /> Football
+                        <IoFootballOutline/> Football
                         </div>
                           
                     </div>
@@ -66,7 +68,7 @@ const PlayTable = () => {
 
                     <div className='PlaingHeadingLeftSection'>
                         <div className='TeamTitle'>
-                            <CiBasketball /> 
+                        <IoTennisballOutline/>
                             
                         </div>Tennis
 

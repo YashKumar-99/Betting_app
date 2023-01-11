@@ -13,9 +13,9 @@
 .sidebarLinks {
   position: fixed;
   left: 0;
-  background: #f4d821;
+  background: rgb(220, 203, 203);
   height: 100%;
-  color: #fff;
+  color: var(--WhiteText);
   /* text-transform: uppercase; */
   top: 0;
   padding-top: 10%;
