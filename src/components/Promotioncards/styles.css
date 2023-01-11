@@ -1,0 +1,27 @@
+.promotion-button {
+    justify-content: space-between;
+    grid-row-gap: 5px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    grid-column-gap: 6px;
+    margin: 10px;
+}
+.card {
+    position: absolute;
+    font-size: 13px;
+    color: #fff;
+    top: 22%;
+    left: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.promotion {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    width: 175px;
+    height: 36px;
+    position: relative;
+}

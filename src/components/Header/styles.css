@@ -1,0 +1,80 @@
+
+
+
+.HeaderSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    background-color: var(--HeaderBackgroundColor);
+}
+
+.Buttons {
+    align-items: center;
+    display: flex;
+}
+
+.box-button {
+    border-radius: 1px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize !important;
+    color: '#000000';
+    margin: 2px;
+    padding: 11px 14px;
+}
+
+.box-button-1 {
+    background: var(--LoginButtonBackgroundColor);
+}
+
+.box-button-2 {
+    background: var(--SignUpBackgroundColor);
+}
+
+.SearchClass {
+    color: var(--SearchIconColor);
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+
+.SearchClass path {
+    stroke: #fff;
+    font-size: 16px;
+
+}
+
+.LogoSection {
+    display: flex;
+    align-items: center;
+    color: var(--HeaderMenuColor);
+    font-size: 25px;
+}
+
+
+.logo-img {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+
+
+.logo-img img {
+    width: 100px;
+    transform: translateY(-3px);
+}
+.LogoSection path {
+    stroke: #fff;
+
+}

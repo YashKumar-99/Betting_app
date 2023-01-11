@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root {
+
+  --HeaderBackgroundColor: #1e7f66;
+  --HeaderMenuColor: #fff;
+  --LoginButtonBackgroundColor: #f4d821;
+  --SignUpBackgroundColor: #fff;
+  --SearchIconColor: #fff;
+  --WhiteText: #fff;
+  --PlayHeaderBackgroundColor: #257b23;
+  --PlayHeaderTitle: #000000;
+  --PlaydateTitle: #01623f;
+  --LiveBoxesBgColor: #a7d8fd;
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -28,10 +52,28 @@
   color: #61dafb;
 }
 
+
+.pageswidth.AddSideBarWidth {
+  /* transform: translateX(60%); */
+}
+
+
+
+/* .pageswidth.AddSideBarWidth {
+  transform: translateX(25%);
+} */
+
+
+
+.pageswidth.RemoveSideBarWidth {
+  transform: translateX(0%);
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
