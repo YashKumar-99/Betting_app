@@ -11,6 +11,7 @@ import SideLinks from './components/SidebarLink';
 import { useState } from 'react';
 
 import { useRef } from 'react';
+import GameCard from './components/GamesCards';
 
 
 
@@ -59,6 +60,7 @@ function App() {
         <Playingcard />
         <Promotioncards />
         <PlayTable />
+        < GameCard />
       </div>
 
     </>
