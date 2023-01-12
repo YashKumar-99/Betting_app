@@ -25,9 +25,41 @@
   transform: translateX(0%);
   width: 200px;
   height: 100vh;
+  overflow: scroll;
 }
 
 .sidebarLinks ul li {
   text-transform: capitalize;
   padding-bottom: 10px;
+}
+.red{
+  color: brown;
+}
+.heading{
+  color: var(--PlaydateTitle);
+  font-size: 15px;
+  font-weight: 600;
+}
+.text{
+  color: var(--PlayHeaderTitle);
+  font-size: 15px;
+  font-weight: 600;
+}
+.Black{
+  color: var(--PlayHeaderTitle);
+}
+.PlaydateTitle{
+  color: var(--PlaydateTitle);
+}
+.lightgreen{
+  color:var(--PlayHeaderBackgroundColor);
+}
+.yellow{
+  color:#ffe600
+}
+.social{
+  color: var(--PlayHeaderBackgroundColor);
+  border: 2px solid var(--PlayHeaderBackgroundColor);
+  padding: 5px;
+  font-weight: 300;
 }
