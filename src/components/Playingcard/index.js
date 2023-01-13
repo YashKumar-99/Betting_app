@@ -7,7 +7,7 @@ import horserace from '../../assests/horse-bg.png'
 import greyhound from '../../assests/greyhound-bg.png'
 import {IoTennisballOutline} from "react-icons/io5";
 import {IoFootballOutline} from "react-icons/io5";
-import {GiGlassBall} from "react-icons/gi";
+import {GiGlassBall,GiHound } from "react-icons/gi";
 import {FaHorseHead} from "react-icons/fa"
 
 function Playingcard() {
@@ -32,7 +32,7 @@ function Playingcard() {
       </div>
       <div className='sport-button'>
         <img className='sport-bg-img' src={greyhound} />
-        <div className='box1'>greyhound Racing</div>
+        <div className='box1'><GiHound />greyhound Racing</div>
       </div>
     </div>
     </>

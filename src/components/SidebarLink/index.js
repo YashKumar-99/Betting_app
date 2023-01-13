@@ -23,15 +23,15 @@ const SideLinks = () => {
           <li className='red'><GiCombinationLock /><span className='text'>Slots Games</span></li><hr />
         </ul>
 
-        <div>
+        <div >
           <div className='heading'>
             Get Instant ID On Whatsapp
           </div>
           <ul>
             <li className='lightgreen'><IoLogoWhatsapp /><span className='social'>Whatsapp Now</span> </li>
             <li className='Black' ><FaInstagramSquare/><span className='social'>Follow On Instagram</span></li>
-            <li><FaTelegram/><span className='social'>Follow On Telegram</span></li>
-            <li><FaWhatsappSquare/><span className='social'>Whatsapp Support</span></li>
+            <li className='Blue'><FaTelegram/><span className='social'>Follow On Telegram</span></li>
+            <li className='lightgreen'><FaWhatsappSquare/><span className='social'>Whatsapp Support</span></li>
           </ul>
           
 
